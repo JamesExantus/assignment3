@@ -1,5 +1,16 @@
+const cart  = [];
+
+
 function addToCart(item, quantity){
-    return item * quantity;
+    for(let i = 0; i < item.length; i++){
+    
+    if(cart.includes(item[i])){
+    cart.item[i] += quantity;
+    }
+    else
+        cart.item[i] = quantity;
+    
+}
 }
 
 function removeFromCart(item, quantity){
@@ -7,7 +18,8 @@ function removeFromCart(item, quantity){
 }
 
 function calculateTotal(item, quantity) {
-   console.log(item, quantity);
+   
+
 }
 
 module.exports = {

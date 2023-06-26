@@ -7,7 +7,7 @@ describe("reverseString(car) returns rac", () => {
     })
 })  
 
-/*
+
 //expected fail
 describe("reverseString(dog) returns god", () => {
     test("reverseString(dog) => god", () => {
@@ -15,7 +15,7 @@ describe("reverseString(dog) returns god", () => {
     })
 })  
 
-*/
+
 
 //expected pass
 describe("isPalindrome(racecar) returns racecar", () => {
@@ -25,7 +25,7 @@ describe("isPalindrome(racecar) returns racecar", () => {
 })  
 
 
-/*
+
 //expected fail
 describe("isPalindrome(noon) returns noon", () => {
     test("isPalindrome(noon) => noon", () => {
@@ -33,4 +33,3 @@ describe("isPalindrome(noon) returns noon", () => {
     })
 })  
 
-*/
